@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Contents>
+  <Content Name="tool_ControllerTreeControl">
+    <Tool IsPeriodicUpdateEnabled="true">
+      <UIState>
+        <Element Name="__tviItems" IsExpanded="True" />
+        <Element Name="__tviTempItems" IsExpanded="False" />
+        <Element Name="__tviAxes" IsExpanded="False" />
+        <Element Name="__tviMemory" IsExpanded="True" />
+        <Element Name="__tviModules" IsExpanded="False" />
+        <Element Name="__tviConfig" IsExpanded="True" />
+        <Element Name="__tviEnabledFeatures" IsExpanded="False" />
+        <Element Name="__tviCommunications" IsExpanded="True" />
+        <Element Name="__tviDebugInfo" IsExpanded="False" />
+      </UIState>
+    </Tool>
+  </Content>
+  <Content Name="tool_Visualization3DToolControl">
+    <Tool>
+      <ModelPath></ModelPath>
+      <Engine3D FillMode="Solid" ShowCS="true" ShowGrid="false">
+        <Camera3D Zoom="1" Perspective="false" Pivot="0,0,0" Orientation="0.5,0.5,0.5,-0.5" />
+      </Engine3D>
+    </Tool>
+  </Content>
+  <Content Name="tool_JogAxesControl">
+    <Tool IsPeriodicUpdateEnabled="true">
+      <AxesInUse>
+        <Index>0</Index>
+        <Index>1</Index>
+        <Index>2</Index>
+      </AxesInUse>
+    </Tool>
+  </Content>
+  <Content Name="tool_AxisParametersControl">
+    <Tool IsPeriodicUpdateEnabled="true">
+      <AxesInUse>
+        <Index>0</Index>
+        <Index>1</Index>
+        <Index>2</Index>
+      </AxesInUse>
+      <ParamsVisibility>
+        <Param Name="JOGSPEED" IsVisible="true" />
+      </ParamsVisibility>
+      <Groups>
+        <Group Name="Registration" IsExpanded="false" />
+      </Groups>
+    </Tool>
+  </Content>
+  <Content Name="Document_CamGen_CAMLIB">
+    <Document>
+      <PROFILE>
+        <Document ActiveTab="0">
+          <View2D>
+            <Scaling AutoPosition="true" AutoSpeed="true" AutoAcceleration="true" MinPosition="1" MaxPosition="-1" MinSpeed="1" MaxSpeed="-1" MinAcceleration="1" MaxAcceleration="-1" />
+            <Zooming Left="0" Top="0.0045454545454545487" Right="1" Bottom="1.0045454545454546" />
+          </View2D>
+        </Document>
+      </PROFILE>
+    </Document>
+  </Content>
+  <Content Name="ToolBarSettings_basic">
+    <Content>
+      <ToolBarDebug Band="0" BandIndex="1" />
+      <ToolBarEdit Band="0" BandIndex="0" />
+    </Content>
+  </Content>
+  <Content Name="Document_CamGen_CAM_1" />
+  <Content Name="tool_TableViewerControl">
+    <Tool IsPeriodicUpdateEnabled="true">
+      <Ranges>
+        <Range StartAddress="0" EndAddress="13" IsExpanded="true" />
+        <Range StartAddress="100" EndAddress="109" IsExpanded="true" />
+        <Range StartAddress="110" EndAddress="113" IsExpanded="true" />
+        <Range StartAddress="150" EndAddress="155" IsExpanded="true" />
+        <Range StartAddress="170" EndAddress="177" IsExpanded="true" />
+        <Range StartAddress="200" EndAddress="204" IsExpanded="true" />
+        <Range StartAddress="211" EndAddress="211" IsExpanded="true" />
+        <Range StartAddress="300" EndAddress="310" IsExpanded="true" />
+      </Ranges>
+    </Tool>
+  </Content>
+  <Content Name="TableRangeEditDlgSettings">
+    <RecentRanges_TABLE>
+      <Range StartAddress="100" EndAddress="110" />
+      <Range StartAddress="0" EndAddress="0" />
+      <Range StartAddress="0" EndAddress="5" />
+      <Range StartAddress="200" EndAddress="230" />
+      <Range StartAddress="111" EndAddress="116" />
+      <Range StartAddress="117" EndAddress="117" />
+      <Range StartAddress="111" EndAddress="117" />
+      <Range StartAddress="118" EndAddress="118" />
+      <Range StartAddress="111" EndAddress="118" />
+      <Range StartAddress="300" EndAddress="310" />
+      <Range StartAddress="200" EndAddress="204" />
+      <Range StartAddress="10" EndAddress="10" />
+      <Range StartAddress="170" EndAddress="175" />
+      <Range StartAddress="151" EndAddress="154" />
+      <Range StartAddress="208" EndAddress="210" />
+      <Range StartAddress="9" EndAddress="9" />
+      <Range StartAddress="211" EndAddress="211" />
+      <Range StartAddress="150" EndAddress="154" />
+      <Range StartAddress="150" EndAddress="153" />
+      <Range StartAddress="0" EndAddress="10" />
+      <Range StartAddress="12" EndAddress="12" />
+      <Range StartAddress="170" EndAddress="177" />
+      <Range StartAddress="150" EndAddress="155" />
+      <Range StartAddress="100" EndAddress="109" />
+      <Range StartAddress="110" EndAddress="118" />
+      <Range StartAddress="9" EndAddress="10" />
+      <Range StartAddress="0" EndAddress="12" />
+      <Range StartAddress="110" EndAddress="113" />
+      <Range StartAddress="13" EndAddress="13" />
+      <Range StartAddress="0" EndAddress="13" />
+    </RecentRanges_TABLE>
+    <RecentRanges_VR>
+      <Range StartAddress="0" EndAddress="0" />
+      <Range StartAddress="0" EndAddress="1000" />
+      <Range StartAddress="1001" EndAddress="3600" />
+      <Range StartAddress="8000" EndAddress="9000" />
+      <Range StartAddress="8000" EndAddress="18000" />
+    </RecentRanges_VR>
+  </Content>
+  <Content Name="tool_VRViewerControl">
+    <Tool IsPeriodicUpdateEnabled="true">
+      <Ranges>
+        <Range StartAddress="0" EndAddress="7200" IsExpanded="true" />
+        <Range StartAddress="8000" EndAddress="9000" IsExpanded="true" />
+        <Range StartAddress="8000" EndAddress="18000" IsExpanded="true" />
+      </Ranges>
+    </Tool>
+  </Content>
+  <Content Name="tool_WatchVariablesControl">
+    <Tool IsPeriodicUpdateEnabled="true">
+      <Variables>
+        <Variable DisplayName="state_alarm" ParamName="state_alarm" Context="MAIN,9" />
+        <Variable DisplayName="state_emg" ParamName="state_emg" Context="MAIN,9" />
+        <Variable DisplayName="WDOG" ParamName="WDOG" Context="SYSTEM" />
+        <Variable DisplayName="cycle_start" ParamName="cycle_start" Context="MAIN,9" />
+        <Variable DisplayName="reset_alarm" ParamName="reset_alarm" Context="MAIN,9" />
+        <Variable DisplayName="unloader_btn" ParamName="unloader_btn" Context="MAIN,9" />
+        <Variable DisplayName="end_deg" ParamName="end_deg" Context="MAIN,9" />
+        <Variable DisplayName="range_deg" ParamName="range_deg" Context="RUNWAY" />
+        <Variable DisplayName="pulse_num" ParamName="pulse_num" Context="TEST,9" />
+        <Variable DisplayName="pulse_freq" ParamName="pulse_freq" Context="TEST,9" />
+      </Variables>
+    </Tool>
+  </Content>
+  <Content Name="tool_DigitalIOControl">
+    <Tool IsPeriodicUpdateEnabled="true">
+      <DigitalIOBanks>
+        <Visibility>
+          <Bank Index="2" IsInput="false">true</Bank>
+        </Visibility>
+      </DigitalIOBanks>
+    </Tool>
+  </Content>
+  <Content Name="tool_OscilloscopeControl">
+    <Tool>
+      <Config IsMultiTriggerMode="false" IsProgramTriggering="false" MaxChunkSize="8" TimePerDivision="1" ViewMode="Yt" DisplayTextInfo="true" IsExpanded="true" IsAutoHide="false" UseScopeDelay="false" ScopeDelay="0">
+        <ScopeTableInfo SamplesPerDivision="20" PointsPerDivision="10" FitToDisplay="false" IsAutoSamplesDataRangeStartAddress="true" SamplesDataRangeStartAddress="0" UseAutoReArm="true" Use_FIFO="false" FIFOName="MC_SCOPE_FIFO">
+          <BlockDataRanges>
+            <ScopeTableDataRange StartAddress="0" EndAddress="-1" Step="1" />
+            <ScopeTableDataRange StartAddress="0" EndAddress="-1" Step="1" />
+            <ScopeTableDataRange StartAddress="0" EndAddress="-1" Step="1" />
+            <ScopeTableDataRange StartAddress="0" EndAddress="-1" Step="1" />
+          </BlockDataRanges>
+        </ScopeTableInfo>
+      </Config>
+      <ViewerSettings>
+        <TraceColors Count="4" />
+        <CursorColors Count="4" />
+      </ViewerSettings>
+      <View3DSettings />
+      <Engine3D FillMode="Solid" ShowCS="true" ShowGrid="false">
+        <Camera3D Zoom="1" Perspective="false" Pivot="0,0,0" Orientation="0.3213938,0.5566704,0.6634139,-0.3830222" />
+      </Engine3D>
+      <TraceInfos>
+        <TraceInfo State="Automatic" ParamName="MPOS" ContextIndex="1" NullableContextIndex="1" Range="0.0001" LockRanges="false" Offset="0" AutoCentre="false" />
+        <TraceInfo State="Automatic" ParamName="DPOS" ContextIndex="1" NullableContextIndex="1" Range="0.0001" LockRanges="false" Offset="0" AutoCentre="false" />
+        <TraceInfo State="Automatic" ParamName="DPOS" ContextIndex="2" NullableContextIndex="2" Range="0.0001" LockRanges="false" Offset="0" AutoCentre="false" />
+        <TraceInfo State="Automatic" ParamName="MPOS" ContextIndex="2" NullableContextIndex="2" Range="0.0001" LockRanges="false" Offset="0" AutoCentre="false" />
+      </TraceInfos>
+      <CursorInfos>
+        <CursorInfo IsVisible="false" Position="0.2" TraceIndex="0" />
+        <CursorInfo IsVisible="false" Position="0.4" TraceIndex="0" />
+        <CursorInfo IsVisible="false" Position="0.6" TraceIndex="0" />
+        <CursorInfo IsVisible="false" Position="0.8" TraceIndex="0" />
+      </CursorInfos>
+      <RecentParamNames>
+        <Param Name="DPOS" Age="97" />
+        <Param Name="MPOS" Age="64" />
+        <Param Name="MSPEED" Age="65" />
+        <Param Name="SPEED" Age="0" />
+      </RecentParamNames>
+    </Tool>
+  </Content>
+  <Content Name="tool_FindReplaceWindow">
+    <Tool MainMode="QuickReplace" />
+  </Content>
+  <Content Name="tool_FindInProjectControl">
+    <Tool>
+      <TargetFilter>BASIC|Text|MC Config file|CAM library|HMI design|IEC 61131-3 task|IEC 61131-3 library</TargetFilter>
+    </Tool>
+  </Content>
+  <Content Name="tool_AnalogueIOControl">
+    <Tool IsPeriodicUpdateEnabled="true" />
+  </Content>
+  <Content Name="ToolBarSettings_ST" />
+  <Content Name="tool_IECVariablesToolControl">
+    <Tool>
+      <ColumnProperties NameColumnWidth="140" ValueColumnWidth="100" TypeColumnWidth="95" BindingColumnWidth="200" ArrayDimensionColumnWidth="50" AttributesColumnWidth="80" InitialValueColumnWidth="120" CommentColumnWidth="180" SortByColumn="" SortByMethod="" />
+    </Tool>
+  </Content>
+  <Content Name="tool_ControllerProcessesControl">
+    <Tool IsPeriodicUpdateEnabled="true" />
+  </Content>
+  <Content Name="Document_MC_CONFIG_MC_CONFIG">
+    <Document Title="IP Configuration" />
+  </Content>
+  <Content Name="ToolBarSettings_mcConfig">
+    <Content>
+      <ToolBarDebug Band="0" BandIndex="1" />
+      <ToolBarEdit Band="0" BandIndex="0" />
+    </Content>
+  </Content>
+  <Content Name="tool_ControllerDirectoryControl">
+    <Tool IsPeriodicUpdateEnabled="true" />
+  </Content>
+  <Content Name="pos_tool_ControllerTreeControl">
+    <PositionSettings IsDocked="true" AnchorStyle="Left" SizeToContent="Manual" ResizeMode="CanResize" Left="NaN" Top="NaN" Width="300" Height="300" DockWidth="300" DockHeight="300" />
+  </Content>
+  <Content Name="pos_tool_OutputWindow">
+    <PositionSettings IsDocked="true" AnchorStyle="Bottom" SizeToContent="Manual" ResizeMode="CanResize" Left="NaN" Top="NaN" Width="300" Height="300" DockWidth="300" DockHeight="300" />
+  </Content>
+  <Content Name="pos_tool_TerminalControl_0">
+    <PositionSettings IsDocked="true" AnchorStyle="Right" SizeToContent="Manual" ResizeMode="CanResize" Left="NaN" Top="NaN" Width="300" Height="300" DockWidth="300" DockHeight="300" />
+  </Content>
+  <Content Name="pos_tool_FindReplaceWindow">
+    <PositionSettings IsDocked="false" AnchorStyle="Right" SizeToContent="WidthAndHeight" ResizeMode="CanResize" Left="NaN" Top="NaN" Width="240" Height="330.85666666666668" DockWidth="300" DockHeight="300" />
+  </Content>
+  <Content Name="pos_tool_DigitalIOControl">
+    <PositionSettings IsDocked="false" AnchorStyle="Right" SizeToContent="Manual" ResizeMode="CanResize" Left="NaN" Top="NaN" Width="460" Height="260" DockWidth="300" DockHeight="300" />
+  </Content>
+  <Content Name="pos_tool_AxisParametersControl">
+    <PositionSettings IsDocked="false" AnchorStyle="Right" SizeToContent="Width" ResizeMode="CanResize" Left="NaN" Top="NaN" Width="348.06666666666672" Height="300" DockWidth="300" DockHeight="300" />
+  </Content>
+  <Content Name="pos_tool_OscilloscopeControl">
+    <PositionSettings IsDocked="false" AnchorStyle="Right" SizeToContent="Manual" ResizeMode="CanResize" Left="NaN" Top="NaN" Width="650" Height="480" DockWidth="300" DockHeight="300" />
+  </Content>
+  <Content Name="pos_tool_TableViewerControl">
+    <PositionSettings IsDocked="false" AnchorStyle="Right" SizeToContent="Manual" ResizeMode="CanResize" Left="NaN" Top="NaN" Width="200" Height="600" DockWidth="300" DockHeight="300" />
+  </Content>
+  <Content Name="pos_tool_WatchVariablesControl">
+    <PositionSettings IsDocked="false" AnchorStyle="Right" SizeToContent="Manual" ResizeMode="CanResize" Left="NaN" Top="NaN" Width="220" Height="200" DockWidth="300" DockHeight="300" />
+  </Content>
+</Contents>
