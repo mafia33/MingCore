@@ -64,7 +64,7 @@ BASE(0)
 'ATYPE=43
 UNITS=2048*4/200 'Fuji as inc
 ATYPE=44
-P_GAIN=3.5
+P_GAIN=6.0
 VFF_GAIN=7.0
 'Velocity profile
 CREEP=40

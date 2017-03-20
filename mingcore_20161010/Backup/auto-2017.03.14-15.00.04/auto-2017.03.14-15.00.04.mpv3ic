@@ -42,9 +42,6 @@
       <ParamsVisibility>
         <Param Name="JOGSPEED" IsVisible="true" />
       </ParamsVisibility>
-      <Groups>
-        <Group Name="Misc" IsExpanded="false" />
-      </Groups>
     </Tool>
   </Content>
   <Content Name="Document_CamGen_CAMLIB">
@@ -167,9 +164,9 @@
         <Camera3D Zoom="1" Perspective="false" Pivot="0,0,0" Orientation="0.3213938,0.5566704,0.6634139,-0.3830222" />
       </Engine3D>
       <TraceInfos>
-        <TraceInfo State="Automatic" ParamName="FE" ContextIndex="0" NullableContextIndex="0" Range="0.0001" LockRanges="false" Offset="0" AutoCentre="false" />
-        <TraceInfo State="Automatic" ParamName="DPOS" ContextIndex="0" NullableContextIndex="0" Range="0.0001" LockRanges="false" Offset="0" AutoCentre="false" />
-        <TraceInfo State="Automatic" ParamName="MPOS" ContextIndex="0" NullableContextIndex="0" Range="0.0001" LockRanges="false" Offset="0" AutoCentre="false" />
+        <TraceInfo State="Automatic" ParamName="FE" ContextIndex="0" NullableContextIndex="0" Range="1" LockRanges="false" Offset="0" AutoCentre="false" />
+        <TraceInfo State="Automatic" ParamName="DPOS" ContextIndex="0" NullableContextIndex="0" Range="200" LockRanges="false" Offset="0" AutoCentre="false" />
+        <TraceInfo State="Automatic" ParamName="MPOS" ContextIndex="0" NullableContextIndex="0" Range="200" LockRanges="false" Offset="0" AutoCentre="false" />
         <TraceInfo State="Off" ParamName="MPOS" ContextIndex="2" NullableContextIndex="2" Range="0.0001" LockRanges="false" Offset="0" AutoCentre="false" />
       </TraceInfos>
       <CursorInfos>
@@ -179,10 +176,10 @@
         <CursorInfo IsVisible="false" Position="0.8" TraceIndex="0" />
       </CursorInfos>
       <RecentParamNames>
-        <Param Name="DPOS" Age="191" />
-        <Param Name="FE" Age="34" />
-        <Param Name="MPOS" Age="18" />
-        <Param Name="MSPEED" Age="92" />
+        <Param Name="DPOS" Age="171" />
+        <Param Name="FE" Age="19" />
+        <Param Name="MPOS" Age="8" />
+        <Param Name="MSPEED" Age="87" />
         <Param Name="SPEED" Age="0" />
       </RecentParamNames>
     </Tool>
@@ -229,6 +226,6 @@
     <PositionSettings IsDocked="true" AnchorStyle="Right" SizeToContent="Manual" ResizeMode="CanResize" Left="NaN" Top="NaN" Width="300" Height="300" DockWidth="300" DockHeight="300" />
   </Content>
   <Content Name="pos_tool_AxisParametersControl">
-    <PositionSettings IsDocked="false" AnchorStyle="Right" SizeToContent="Width" ResizeMode="CanResize" Left="NaN" Top="NaN" Width="348.06666666666672" Height="300" DockWidth="300" DockHeight="300" />
+    <PositionSettings IsDocked="false" AnchorStyle="Right" SizeToContent="Width" ResizeMode="CanResize" Left="NaN" Top="NaN" Width="453" Height="424" DockWidth="300" DockHeight="300" />
   </Content>
 </Contents>

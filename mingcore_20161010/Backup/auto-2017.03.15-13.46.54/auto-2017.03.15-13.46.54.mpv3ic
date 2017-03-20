@@ -42,9 +42,6 @@
       <ParamsVisibility>
         <Param Name="JOGSPEED" IsVisible="true" />
       </ParamsVisibility>
-      <Groups>
-        <Group Name="Misc" IsExpanded="false" />
-      </Groups>
     </Tool>
   </Content>
   <Content Name="Document_CamGen_CAMLIB">
@@ -179,10 +176,10 @@
         <CursorInfo IsVisible="false" Position="0.8" TraceIndex="0" />
       </CursorInfos>
       <RecentParamNames>
-        <Param Name="DPOS" Age="191" />
-        <Param Name="FE" Age="34" />
-        <Param Name="MPOS" Age="18" />
-        <Param Name="MSPEED" Age="92" />
+        <Param Name="DPOS" Age="187" />
+        <Param Name="FE" Age="31" />
+        <Param Name="MPOS" Age="16" />
+        <Param Name="MSPEED" Age="91" />
         <Param Name="SPEED" Age="0" />
       </RecentParamNames>
     </Tool>
@@ -228,7 +225,10 @@
   <Content Name="pos_tool_TerminalControl_0">
     <PositionSettings IsDocked="true" AnchorStyle="Right" SizeToContent="Manual" ResizeMode="CanResize" Left="NaN" Top="NaN" Width="300" Height="300" DockWidth="300" DockHeight="300" />
   </Content>
+  <Content Name="pos_tool_OscilloscopeControl">
+    <PositionSettings IsDocked="false" AnchorStyle="Right" SizeToContent="Manual" ResizeMode="CanResize" Left="NaN" Top="NaN" Width="650" Height="480" DockWidth="300" DockHeight="300" />
+  </Content>
   <Content Name="pos_tool_AxisParametersControl">
-    <PositionSettings IsDocked="false" AnchorStyle="Right" SizeToContent="Width" ResizeMode="CanResize" Left="NaN" Top="NaN" Width="348.06666666666672" Height="300" DockWidth="300" DockHeight="300" />
+    <PositionSettings IsDocked="false" AnchorStyle="Right" SizeToContent="Width" ResizeMode="CanResize" Left="NaN" Top="NaN" Width="456.37333333333333" Height="300" DockWidth="300" DockHeight="300" />
   </Content>
 </Contents>

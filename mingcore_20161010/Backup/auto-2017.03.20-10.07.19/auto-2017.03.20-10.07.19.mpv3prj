@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project Version="1" ProductId="400" ProductName="MC400">
+<Project Version="1" ProductId="403" ProductName="MC403">
     <Environment>
         <Software SoftwareVersion="4.1.4.11265" />
-        <Controller ControllerVersion="2.0263" ControllerFPGAVersion="0">
+        <Controller ControllerVersion="2.0245" ControllerFPGAVersion="16">
             <Modules />
         </Controller>
     </Environment>

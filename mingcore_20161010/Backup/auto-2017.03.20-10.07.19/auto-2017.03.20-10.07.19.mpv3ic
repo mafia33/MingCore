@@ -42,9 +42,6 @@
       <ParamsVisibility>
         <Param Name="JOGSPEED" IsVisible="true" />
       </ParamsVisibility>
-      <Groups>
-        <Group Name="Misc" IsExpanded="false" />
-      </Groups>
     </Tool>
   </Content>
   <Content Name="Document_CamGen_CAMLIB">
@@ -227,6 +224,9 @@
   </Content>
   <Content Name="pos_tool_TerminalControl_0">
     <PositionSettings IsDocked="true" AnchorStyle="Right" SizeToContent="Manual" ResizeMode="CanResize" Left="NaN" Top="NaN" Width="300" Height="300" DockWidth="300" DockHeight="300" />
+  </Content>
+  <Content Name="pos_tool_OscilloscopeControl">
+    <PositionSettings IsDocked="false" AnchorStyle="Right" SizeToContent="Manual" ResizeMode="CanResize" Left="748" Top="152" Width="705" Height="693" DockWidth="300" DockHeight="300" />
   </Content>
   <Content Name="pos_tool_AxisParametersControl">
     <PositionSettings IsDocked="false" AnchorStyle="Right" SizeToContent="Width" ResizeMode="CanResize" Left="NaN" Top="NaN" Width="348.06666666666672" Height="300" DockWidth="300" DockHeight="300" />
